@@ -1,0 +1,53 @@
+{
+  "name": "x6-svelte-shape",
+  "version": "1.0.0",
+  "description": "x6 shape registrar for svelte components",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/index.js",
+  "jsdelivr": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "shape",
+    "svelte",
+    "render",
+    "x6",
+    "antv"
+  ],
+  "scripts": {
+    "clean:turbo": "rss",
+    "clean:build": "rss",
+    "clean:coverage": "rss",
+    "clean": "rss",
+    "build:esm": "rss",
+    "build:cjs": "rss",
+    "build:umd": "rss",
+    "build:dev": "rss",
+    "build:watch": "rss",
+    "build:watch:esm": "rss",
+    "build:watch:cjs": "rss",
+    "build": "rss",
+    "prebuild": "rss",
+    "test": "rss",
+    "coveralls": "rss",
+    "pretest": "rss"
+  },
+  "peerDependencies": {
+    "@antv/x6": "^2.x",
+    "svelte": ">= 3.55.1"
+  },
+  "devDependencies": {
+    "@antv/x6": "^2.x",
+    "svelte": "^3.55.1"
+  },
+  "author": {
+    "name": "tmarsik42"
+  },
+  "license": "MIT",
+}
